@@ -1,0 +1,9 @@
+Can you help test APEX, my race engineer for original Assetto Corsa on PC?
+
+I've attached APEX-Playtest-v0.5.1.zip. Extract it completely and start with START-HERE.txt at the top of the ZIP. It needs Windows x64, CM/CSP, .NET 10 Windows Desktop Runtime and Python 3.10+.
+
+After setup, try about 20 minutes on a familiar car/track: drive clean laps, ask for feedback, test your wheel talk button, compare corners and finish with the debrief.
+
+Please return APEX Race Engineer/playtest/FEEDBACK-TEMPLATE.md. I'm especially interested in useful advice, voice/button problems, confusing screens and stutters. Attach only evidence you're comfortable sharing; your recordings aren't uploaded automatically.
+
+Thanks!

@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "retrieved_at": "2026-10-27",
+  "tracks": [
+    {
+      "id": "red-bull-ring-gp", "name": "Red Bull Ring — Grand Prix",
+      "ac_track_ids": ["ks_red_bull_ring"], "ac_layouts": ["layout_gp"],
+      "official_length_m": 4326, "official_turn_count": 10,
+      "source_url": "https://www.redbullring.com/en/events-tickets/formula-1/formula-1-circuit/",
+      "map_url": "https://www.formula1.com/en/racing/2026/austria",
+      "mapping_verified": false,
+      "mapping_note": "Official current names are supplied for orientation. No normalized AC positions have been verified for these names; detected segments must keep their own labels.",
+      "length_note": "The operator reports a revised centre-line measurement from summer 2024. This is not a distance calibration for the older laser-scanned AC track.",
+      "corners": [
+        {"number": 1, "name": "Niki Lauda Turn", "normalized_pos": null},
+        {"number": 2, "name": "Münzer Turn", "normalized_pos": null},
+        {"number": 3, "name": "Interwetten Turn", "normalized_pos": null},
+        {"number": 4, "name": "Rauch Turn", "normalized_pos": null},
+        {"number": 5, "name": "Turn 5", "normalized_pos": null},
+        {"number": 6, "name": "Turn 6", "normalized_pos": null},
+        {"number": 7, "name": "Graz Turn", "normalized_pos": null},
+        {"number": 8, "name": "Turn 8", "normalized_pos": null},
+        {"number": 9, "name": "Jochen Rindt Turn", "normalized_pos": null},
+        {"number": 10, "name": "Turn 10", "normalized_pos": null}
+      ]
+    }
+  ],
+  "benchmarks": [
+    {
+      "id": "rbr-f1-record-as-listed-2026", "kind": "real_world", "context_only": true,
+      "label": "F1 circuit lap record listed for 2026", "driver": "Oscar Piastri", "car": "McLaren Formula 1", "year": 2025,
+      "lap_time_ms": 67924, "track_length_m": 4326,
+      "source_url": "https://www.formula1.com/en/racing/2026/austria",
+      "note": "A real Formula 1 record for the operator's current measurement, not an Assetto Corsa GT3 target. Tyres, fuel, BoP, weather and car physics are not matched."
+    },
+    {
+      "id": "rbr-2020-styrian-race-fastest", "kind": "real_world", "context_only": true,
+      "label": "2020 Styrian Grand Prix fastest race lap — historical", "driver": "Carlos Sainz", "car": "McLaren Renault Formula 1", "year": 2020,
+      "lap_time_ms": 65619, "track_length_m": 4318,
+      "source_url": "https://www.formula1.com/en/results/2020/races/1046/austria/fastest-laps",
+      "note": "Lap 68 of the 2020 Styrian Grand Prix. Historical timing under the older published track length; not a current-record assertion or an AC comparison target."
+    }
+  ],
+  "datasets": [
+    {
+      "id": "assetto-corsa-gym", "name": "AssettoCorsaGym human and policy telemetry", "game": "assetto_corsa",
+      "license": "CC-BY-4.0", "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "source_url": "https://huggingface.co/datasets/dasgringuen/assettoCorsaGym",
+      "paper_url": "https://assetto-corsa-gym.github.io/",
+      "revision": "ad1df12c49cce10f159ba31967744750bb9edd8b",
+      "attribution": "Adrian Remonda et al., A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data, NeurIPS 2024.",
+      "note": "The human subset includes BMW Z4 GT3 at Red Bull Ring. It mixes driver skill levels and separate AI runs; it is not a world-record service. Only explicitly identified human data are bundled here."
+    }
+  ]
+}

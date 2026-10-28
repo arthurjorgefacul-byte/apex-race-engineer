@@ -1,0 +1,79 @@
+{
+  "magic": "acpe",
+  "schema": 1,
+  "app_version": "0.5.1",
+  "game": "assetto_corsa",
+  "driver": "APEX local",
+  "sequence": 0,
+  "speed_kmh": 211.49556,
+  "rpm": 9619,
+  "max_rpm": 12500,
+  "gear": 3,
+  "fuel_litres": 34.2,
+  "fuel_laps_remaining": 12.000001,
+  "fuel_per_lap": 2.85,
+  "delta_seconds": 22.8,
+  "position": 2,
+  "lap_count": 5,
+  "last_lap_ms": 81452,
+  "best_lap_ms": 81452,
+  "current_lap_ms": 22800,
+  "stint_laps": 0,
+  "air_temp_c": 22.5,
+  "road_temp_c": 34.0,
+  "surface_grip": 0.98,
+  "flags": 238,
+  "corners": [
+    {
+      "pressure_psi": 27.4,
+      "temp_c": 84.45301,
+      "temp_inner_c": 87.753006,
+      "temp_outer_c": 80.65301,
+      "wear_percent": 0.0,
+      "brake_temp_c": 429.29013,
+      "laps_remaining": -1.0
+    },
+    {
+      "pressure_psi": 27.6,
+      "temp_c": 84.73333,
+      "temp_inner_c": 88.0,
+      "temp_outer_c": 81.0,
+      "wear_percent": 0.0,
+      "brake_temp_c": 442.0,
+      "laps_remaining": -1.0
+    },
+    {
+      "pressure_psi": 27.5,
+      "temp_c": 88.76666,
+      "temp_inner_c": 92.1,
+      "temp_outer_c": 85.2,
+      "wear_percent": 0.0,
+      "brake_temp_c": 380.0,
+      "laps_remaining": -1.0
+    },
+    {
+      "pressure_psi": 27.3,
+      "temp_c": 87.43333,
+      "temp_inner_c": 90.5,
+      "temp_outer_c": 84.0,
+      "wear_percent": 0.0,
+      "brake_temp_c": 375.0,
+      "laps_remaining": -1.0
+    }
+  ],
+  "advice": [
+    {
+      "severity": 2,
+      "text": "Chassis bottoming out!"
+    },
+    {
+      "severity": 1,
+      "text": "Fronts COLD: 85\u00b0C (tread)"
+    },
+    {
+      "severity": 1,
+      "text": "All four pressure: 27.5 psi (target 21.0 psi)"
+    }
+  ],
+  "debrief": []
+}

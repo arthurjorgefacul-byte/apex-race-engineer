@@ -1,0 +1,79 @@
+{
+  "schema": 1,
+  "retrieved_at": "2026-10-27",
+  "notice": "Short original paraphrases for simulator coaching. These are mechanisms and testable hypotheses, not diagnoses made without telemetry.",
+  "sources": [
+    {"id": "aim-analysis", "publisher": "AiM Sportline", "title": "RaceStudio 3 Analysis", "url": "https://www.aim-sportline.com/docs/racestudio3/manual/html/analysis.html"},
+    {"id": "d61-trail", "publisher": "Driver61 / Scott Mansell", "title": "How to Trail Brake", "url": "https://driver61.com/uni/trail-braking/"},
+    {"id": "d61-entry", "publisher": "Driver61 / Scott Mansell", "title": "Maximising the Corner Entry Phase", "url": "https://driver61.com/uni/corner-entry/"},
+    {"id": "d61-phases", "publisher": "Driver61 / Scott Mansell", "title": "The Six Phases of a Corner", "url": "https://driver61.com/uni/corner-phases/"},
+    {"id": "d61-setup", "publisher": "Driver61", "title": "Understanding the Importance of Car Setup for Beginners", "url": "https://driver61.com/uni/understanding-car-setup-for-beginners/"},
+    {"id": "d61-braking", "publisher": "Driver61 / Scott Mansell", "title": "The Ultimate Guide to Braking on Track", "url": "https://driver61.com/uni/braking/"}
+  ],
+  "principles": [
+    {
+      "id": "distance-before-verdict", "title": "Compare the same place on track", "phase": "all",
+      "mechanism": "Align speed, brake and throttle against distance. A lap-time difference alone cannot identify the driver's input that caused it.",
+      "check": "Compare braking onset, minimum speed and throttle pickup with a clean, compatible reference.",
+      "experiment": "Change one input in one corner, then inspect the resulting section time.",
+      "limitations": "Traffic, grip, fuel and setup differences can confound the comparison.",
+      "source_ids": ["aim-analysis"]
+    },
+    {
+      "id": "brake-release-balance", "title": "Brake release affects entry balance", "phase": "entry",
+      "mechanism": "Reducing brake load as steering rises changes how the car shares grip between slowing and turning.",
+      "check": "Inspect the shape and repeatability of brake release alongside steering and entry speed.",
+      "experiment": "Keep the braking landmark fixed and try a smoother release; judge the exit as well as entry.",
+      "limitations": "The appropriate overlap depends on corner speed, car balance and available grip. More trail braking is not always faster.",
+      "source_ids": ["d61-trail", "d61-entry"]
+    },
+    {
+      "id": "entry-is-not-exit", "title": "A faster entry can spoil the exit", "phase": "entry",
+      "mechanism": "Arriving beyond the corner's useful entry speed can delay rotation and throttle application.",
+      "check": "Compare the complete corner and following acceleration zone, not only the braking point.",
+      "experiment": "Test a slightly more controlled entry and keep it only if the measured section improves.",
+      "limitations": "This is a hypothesis to test, not proof that a lower entry speed is the solution.",
+      "source_ids": ["d61-phases"]
+    },
+    {
+      "id": "smooth-inputs", "title": "Abrupt inputs can upset an already loaded car", "phase": "entry",
+      "mechanism": "A sudden steering or brake-release change can demand grip faster than the tyres and chassis can accommodate.",
+      "check": "Look for repeated input steps and lost speed at the same position across several clean laps.",
+      "experiment": "Use a more progressive transition while keeping the rest of the corner unchanged.",
+      "limitations": "Input variation alone does not establish understeer, oversteer or a suspension fault.",
+      "source_ids": ["d61-entry"]
+    },
+    {
+      "id": "exit-throttle", "title": "Build throttle as the steering unwinds", "phase": "exit",
+      "mechanism": "As turning demand falls on exit, more of the tyre's capacity can be used for acceleration.",
+      "check": "Compare sustained throttle pickup, steering reduction and exit speed with a compatible clean lap.",
+      "experiment": "Aim for a repeatable progressive pickup; retain the change only if the following straight is faster.",
+      "limitations": "Early throttle can be counterproductive when the car still needs to rotate or traction is limited.",
+      "source_ids": ["d61-phases"]
+    },
+    {
+      "id": "coast-with-context", "title": "Explain the pedal transition before calling it a mistake", "phase": "middle",
+      "mechanism": "Time without brake or throttle can reveal a delayed transition, but a corner also has a deliberate balancing phase.",
+      "check": "Locate extra neutral-pedal time against a faster comparable lap and check whether speed or exit actually suffered.",
+      "experiment": "Work on one transition at a time rather than trying to eliminate every lift.",
+      "limitations": "Fuel saving, traffic, low grip and car rotation can justify a lift; zero coasting is not a universal target.",
+      "source_ids": ["aim-analysis", "d61-phases"]
+    },
+    {
+      "id": "brake-pressure-not-percent", "title": "Pedal percentage is not a universal braking target", "phase": "braking",
+      "mechanism": "Useful braking depends on tyre grip, speed, load and assistance systems; maximum pedal input can lock a non-ABS car.",
+      "check": "Relate the brake trace to deceleration and corner outcome for this car.",
+      "experiment": "Use a consistent landmark and compare the braking profile, rather than chasing a fixed percentage.",
+      "limitations": "A pedal trace alone does not prove brake pressure, tyre lock or ABS intervention.",
+      "source_ids": ["d61-braking"]
+    },
+    {
+      "id": "setup-after-phase", "title": "Identify the corner phase before a setup experiment", "phase": "setup",
+      "mechanism": "The same balance complaint can arise for different reasons on entry, at the apex or under power.",
+      "check": "Combine the driver's report with repeated data from that phase before selecting a change.",
+      "experiment": "Save a baseline, change one setting and compare several repeatable laps under similar conditions.",
+      "limitations": "Generic setup advice is not an exact spring, pressure or differential prescription for an unknown AC mod.",
+      "source_ids": ["d61-setup"]
+    }
+  ]
+}

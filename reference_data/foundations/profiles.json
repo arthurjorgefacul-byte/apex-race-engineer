@@ -1,0 +1,1956 @@
+{
+  "schema": 1,
+  "version": "0.5",
+  "retrieved_at": "2026-10-27",
+  "purpose": "Coaching and debrief context, never preset optimal laps or inputs.",
+  "sources": [
+    {
+      "id": "pirelli-circuits",
+      "title": "Formula 1 circuit characteristics",
+      "url": "https://www.pirelli.com/tires/en-us/motorsport/car/formula-1/calendar",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "brembo-circuits",
+      "title": "Formula 1 circuits: braking demands",
+      "url": "https://www.brembo.com/en/motorsport/formula1/infernal-circuits",
+      "publisher": "Brembo",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "merc-monza",
+      "title": "Hitting the brakes in Monza",
+      "url": "https://www.mercedesamgf1.com/news/insight-hitting-the-brakes-in-monza",
+      "publisher": "Mercedes-AMG F1 Team",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-barcelona",
+      "title": "Monte Carlo and Barcelona tyre demands",
+      "url": "https://press.pirelli.com/the-tyre-compound-selections-for-monte-carlo-and-barcelona/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-spa",
+      "title": "Spa track demands and resurfacing",
+      "url": "https://press.pirelli.com/a-brand-new-track-surface-at-spa-francorchamps/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-suzuka",
+      "title": "Suzuka tyre demands",
+      "url": "https://press.pirelli.com/to-suzuka-for-something-new-and-something-old/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-rbr-silverstone",
+      "title": "Spielberg and Silverstone demands",
+      "url": "https://press.pirelli.com/the-full-pirelli-range-for-spielberg-and-silverstone/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-hungary",
+      "title": "Hungaroring traction and temperature",
+      "url": "https://press.pirelli.com/a-summer-classic-at-the-hungaroring/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-imola",
+      "title": "Imola track characteristics",
+      "url": "https://press.pirelli.com/2020-emilia-romagna-grand-prix---preview/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-mugello",
+      "title": "Mugello tyre test characteristics",
+      "url": "https://press.pirelli.com/pirelli-completes-successful-first-formula-one-tyre-test/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "pirelli-zandvoort",
+      "title": "Zandvoort GT3 banking and tyre loads",
+      "url": "https://press.pirelli.com/pirelli-these-are-the-challenges-of-zandvoort/",
+      "publisher": "Pirelli",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "ring-nordschleife",
+      "title": "Nordschleife circuit characteristics",
+      "url": "https://www.nuerburgring.de/info/nuerburgring/race-tracks/nordschleife?locale=en",
+      "publisher": "Nuerburgring circuit operator",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "ring-gp",
+      "title": "Grand Prix and Sprint circuits",
+      "url": "https://mobile.nuerburgring.de/open-hours?locale=en",
+      "publisher": "Nuerburgring circuit operator",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "laguna",
+      "title": "Track information and Corkscrew",
+      "url": "https://weathertechraceway.com/pages/track-information",
+      "publisher": "WeatherTech Raceway Laguna Seca",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "brands",
+      "title": "Brands Hatch circuit",
+      "url": "https://www.msv.com/brands-hatch",
+      "publisher": "MotorSport Vision",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "vallelunga",
+      "title": "Circuit technical data",
+      "url": "https://motorsport.vallelunga.it/dati-tecnici/",
+      "publisher": "ACI Vallelunga",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "magione",
+      "title": "Il Circuito",
+      "url": "https://www.autodromomagione.com/circuito/",
+      "publisher": "Autodromo dell Umbria",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "road-atlanta",
+      "title": "Track map and natural terrain",
+      "url": "https://www.roadatlanta.com/track-info/about-mrra/track-map",
+      "publisher": "Michelin Raceway Road Atlanta",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "road-america",
+      "title": "Road America track",
+      "url": "https://www.roadamerica.com/get-track",
+      "publisher": "Road America",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "sebring",
+      "title": "Track maps",
+      "url": "https://www.sebringraceway.com/track-maps/",
+      "publisher": "Sebring International Raceway",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "lemans",
+      "title": "The Mulsanne Straight",
+      "url": "https://www.24h-lemans.com/en/news/24-hours-of-le-mans-the-legendary-spots-on-the-circuit-the-mulsanne-straight-19610",
+      "publisher": "Automobile Club de l Ouest",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "bathurst",
+      "title": "Mount Panorama track facts",
+      "url": "https://www.bathurst.nsw.gov.au/Services/Facilities/Mount-Panorama/About-the-Mount/Track-Facts",
+      "publisher": "Bathurst Regional Council",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "kyalami",
+      "title": "Grand Prix circuit",
+      "url": "https://www.kyalamigrandprixcircuit.com/grand-prix-circuit/",
+      "publisher": "Kyalami Grand Prix Circuit",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "misano",
+      "title": "Misano circuit",
+      "url": "https://www.lamborghini.com/en-en/motorsport/super-trofeo/calendar-%26-results/misano",
+      "publisher": "Lamborghini Motorsport",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "paul-ricard",
+      "title": "Circuit tracks and facilities",
+      "url": "https://www.circuitpaulricard.com/en/",
+      "publisher": "Circuit Paul Ricard",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "gt3-bmw",
+      "title": "BMW Z4 GT3 electronics development",
+      "url": "https://www.press.bmwgroup.com/global/article/detail/T0134467EN/successful-season-for-the-bmw-z4-gt3-and-privateer-teams-from-around-the-world-%E2%80%93-more-improvements-announced-for-2013?language=en",
+      "publisher": "BMW Motorsport",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "gt4-toyota",
+      "title": "About the GT4 category",
+      "url": "https://toyotagazooracing.com/gt4/about/",
+      "publisher": "Toyota Gazoo Racing",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "gt2-sro",
+      "title": "SRO GT Academy: GT2 description",
+      "url": "https://gt-world-challenge-europe.com/images/News%202025/Other/SRO%20GT%20ACADEMY%202026%20PRESENTATION.pdf",
+      "publisher": "SRO Motorsports Group",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "prototype-toyota",
+      "title": "Hybrid endurance engineering",
+      "url": "https://toyotagazooracing.com/wec/engineering/",
+      "publisher": "Toyota Gazoo Racing",
+      "scope": "real_world_background",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "rss-formula",
+      "title": "Formula Hybrid 2017",
+      "url": "https://racesimstudio.com/formula-hybrid-2017-profile",
+      "publisher": "Race Sim Studio",
+      "scope": "original_ac_mod_author",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "radio-mclaren",
+      "title": "Question time: when race engineers transmit",
+      "url": "https://www.mclaren.com/racing/latest-news/mclarenracing/article/question-time/",
+      "publisher": "McLaren Racing",
+      "scope": "team_engineer_explanation",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "radio-aston",
+      "title": "Trust, focus and managing the mind of an F1 driver",
+      "url": "https://www.astonmartinf1.com/en-GB/news/feature/trust-focus-and-managing-the-mind-of-an-f1-driver",
+      "publisher": "Aston Martin F1 Team",
+      "scope": "team_engineer_interview",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "radio-austin",
+      "title": "Published race radio: Austin 2015",
+      "url": "https://www.formula1.com/en/latest/article/say-what-the-best-of-race-radio-in-austin.6bO9lnmaa5XgQzuQPFidEq.6bO9lnmaa5XgQzuQPFidEq",
+      "publisher": "Formula 1",
+      "scope": "actual_published_radio",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "radio-silverstone",
+      "title": "Silverstone 2022 pit calls explained",
+      "url": "https://www.formula1.com/en/latest/article/binotto-says-there-was-no-way-for-leclerc-to-win-the-british-gp-after-the.42Gc8Chie7I2pcDyCjMSf3",
+      "publisher": "Formula 1",
+      "scope": "actual_published_radio",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "acgym-dataset",
+      "title": "AssettoCorsaGym dataset, pinned revision",
+      "url": "https://huggingface.co/datasets/dasgringuen/assettoCorsaGym/tree/ad1df12c49cce10f159ba31967744750bb9edd8b",
+      "publisher": "Adrian Remonda and collaborators",
+      "scope": "licensed_original_ac_human_data",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "acgym-paper",
+      "title": "A Simulation Benchmark for Autonomous Racing with Large-Scale Human Data",
+      "url": "https://assetto-corsa-gym.github.io/",
+      "publisher": "Research authors, NeurIPS 2024",
+      "scope": "research_method",
+      "retrieved_at": "2026-10-27"
+    },
+    {
+      "id": "acgym-manifest",
+      "title": "Pinned recording identity manifest",
+      "url": "https://github.com/dasGringuen/assetto_corsa_gym/blob/9e79864e4c5cf9971dc9cc260d20113b54198d9d/data/paths.yml",
+      "publisher": "Dataset authors",
+      "scope": "human_vs_ai_recording_labels",
+      "retrieved_at": "2026-10-27"
+    }
+  ],
+  "principles": [
+    {
+      "id": "foundation-braking",
+      "title": "Make the braking phase repeatable",
+      "phases": [
+        "braking",
+        "entry"
+      ],
+      "mechanism": "Approach speed and available grip change the slowing demand.",
+      "check": "Compare braking onset, deceleration and release over repeated clean laps before testing a change.",
+      "limitations": "A brake-pedal percentage is not pressure, locking evidence or a universal target.",
+      "source_ids": [
+        "d61-braking",
+        "aim-analysis"
+      ]
+    },
+    {
+      "id": "foundation-exit",
+      "title": "Judge the exit through the next acceleration zone",
+      "phases": [
+        "exit"
+      ],
+      "mechanism": "An exit difference continues to affect the following straight.",
+      "check": "Compare sustained throttle pickup and section time through the following acceleration zone.",
+      "limitations": "Earlier throttle is a testable idea only when the measured exit improves.",
+      "source_ids": [
+        "d61-phases"
+      ]
+    },
+    {
+      "id": "foundation-sequence",
+      "title": "Review linked corners as one section",
+      "phases": [
+        "entry",
+        "apex",
+        "exit"
+      ],
+      "mechanism": "A line or speed choice can change the preparation for the next corner.",
+      "check": "Keep a change only if the linked section improves, even when one entry becomes slower.",
+      "limitations": "No line, apex position or corner identity is inferred without spatial evidence.",
+      "source_ids": [
+        "d61-phases",
+        "aim-analysis"
+      ]
+    },
+    {
+      "id": "foundation-load",
+      "title": "Relate pedal transitions to steering demand",
+      "phases": [
+        "release",
+        "apex",
+        "exit"
+      ],
+      "mechanism": "Turning and acceleration or braking draw on the same finite grip.",
+      "check": "Inspect brake release and throttle pickup alongside steering and speed at the same track position.",
+      "limitations": "More trail braking, less coasting or more throttle is not always the answer.",
+      "source_ids": [
+        "d61-trail",
+        "d61-entry"
+      ]
+    },
+    {
+      "id": "foundation-platform",
+      "title": "Check balance through load transitions",
+      "phases": [
+        "braking",
+        "release",
+        "apex"
+      ],
+      "mechanism": "Crests, compressions and direction changes can alter the load supported by the tyres.",
+      "check": "Use repeatable speed and input traces to locate the phase of instability before a setup experiment.",
+      "limitations": "No damper, ride-height or spring value can be prescribed from a category or circuit name.",
+      "source_ids": [
+        "d61-entry",
+        "d61-setup"
+      ]
+    },
+    {
+      "id": "foundation-thermal",
+      "title": "Check tyre trends against this stint",
+      "phases": [
+        "apex",
+        "exit"
+      ],
+      "mechanism": "Repeated sliding and loading may change tyre behaviour during a run.",
+      "check": "Compare available temperatures, pressures and pace trends at similar fuel and track conditions.",
+      "limitations": "No real-world tyre pressure or temperature limit is transferred to an unknown AC compound.",
+      "source_ids": [
+        "aim-analysis",
+        "d61-setup"
+      ]
+    },
+    {
+      "id": "foundation-grip",
+      "title": "Recheck the baseline when conditions change",
+      "phases": [
+        "braking",
+        "entry",
+        "exit"
+      ],
+      "mechanism": "A changing surface or tyre state can change the value of an old comparison.",
+      "check": "Compare fresh clean laps under similar grip and tyre conditions before moving a braking landmark.",
+      "limitations": "Real-weather descriptions do not prove the simulated surface is wet, hot or dusty.",
+      "source_ids": [
+        "aim-analysis"
+      ]
+    },
+    {
+      "id": "foundation-capabilities",
+      "title": "Confirm the car systems before coaching them",
+      "phases": [
+        "braking",
+        "exit"
+      ],
+      "mechanism": "Assists and energy systems vary between cars, eras and mods.",
+      "check": "Use reported ABS, TC and energy capabilities and valid channels; otherwise describe them as unavailable.",
+      "limitations": "GT3 or Formula labels alone do not establish ABS, TC, ERS, DRS or their setting scales.",
+      "source_ids": [
+        "gt3-bmw",
+        "rss-formula",
+        "prototype-toyota"
+      ]
+    },
+    {
+      "id": "foundation-energy",
+      "title": "Separate energy strategy from driving error",
+      "phases": [
+        "braking",
+        "exit"
+      ],
+      "mechanism": "Supported hybrid deployment can change acceleration despite similar pedal inputs.",
+      "check": "Compare state of charge and deployment only when exposed and valid; otherwise withhold energy optimisation claims.",
+      "limitations": "A non-hybrid Formula car and a prototype without exposed energy telemetry cannot receive an ERS prescription.",
+      "source_ids": [
+        "prototype-toyota",
+        "rss-formula"
+      ]
+    },
+    {
+      "id": "foundation-legacy-gt",
+      "title": "Keep legacy GT2/GTE separate from modern SRO GT2",
+      "phases": [
+        "braking",
+        "exit"
+      ],
+      "mechanism": "The same GT2 label has been used by different generations of racing classes.",
+      "check": "Compare only the exact car and known specification; keep class-based braking and traction claims conditional.",
+      "limitations": "Modern SRO GT2 performance descriptions must not be applied to AC BMW M3 GT2 or Ferrari 458 GT2.",
+      "source_ids": [
+        "gt2-sro",
+        "aim-analysis"
+      ]
+    },
+    {
+      "id": "foundation-road",
+      "title": "Use the road-car baseline and actual tyre compound",
+      "phases": [
+        "braking",
+        "apex",
+        "exit"
+      ],
+      "mechanism": "Road-car tyres, assistance and setup choices differ from dedicated race cars.",
+      "check": "Build a repeatable baseline with the actual compound and reported assists before comparing a race-car technique.",
+      "limitations": "A road-going 911 GT3 RS is not a homologated GT3 race car.",
+      "source_ids": [
+        "d61-braking",
+        "d61-setup"
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": "gt3",
+      "name": "GT3",
+      "car_ids": [
+        "bmw_z4_gt3",
+        "mercedes_sls_gt3",
+        "mclaren_mp412c_gt3",
+        "ks_mclaren_650_gt3",
+        "ks_mercedes_amg_gt3",
+        "ks_lamborghini_huracan_gt3",
+        "ks_audi_r8_lms",
+        "ks_audi_r8_lms_2016",
+        "ks_ferrari_488_gt3",
+        "ks_nissan_gtr_gt3",
+        "ks_porsche_911_gt3_r_2016"
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit",
+        "foundation-thermal"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "gt3-bmw"
+      ],
+      "limits": [
+        "BoP, electronics scales and tyre windows are car/version specific."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "formula",
+      "name": "Formula / single-seater",
+      "car_ids": [
+        "dallara_f317",
+        "ks_ferrari_sf15t",
+        "ks_ferrari_sf70h",
+        "ks_ferrari_f2004",
+        "ks_ferrari_312t",
+        "lotus_49",
+        "lotus_98t",
+        "ks_lotus_72d",
+        "tatuusfa1",
+        "rss_formula_hybrid_2017",
+        "rss_formula_2010",
+        "rss_formula_2013",
+        "rss_formula_rss_2_v8_2017",
+        "rss_formula_rss_supreme",
+        "rss_formula_rss_supreme_25",
+        "vrc_formula_alpha_2007_f07",
+        "vrc_formula_alpha_2007_mc22",
+        "formula_ultra_26"
+      ],
+      "priority_ids": [
+        "foundation-load",
+        "foundation-platform",
+        "foundation-energy"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "rss-formula"
+      ],
+      "limits": [
+        "Formula includes very different eras and levels; no universal aero, gear or hybrid assumption is made."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "gt2",
+      "name": "Legacy GT2 / GTE",
+      "car_ids": [
+        "bmw_m3_gt2",
+        "ferrari_458_gt2",
+        "ks_corvette_c7r",
+        "ks_porsche_911_rsr_2017"
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "constraint_ids": [
+        "foundation-legacy-gt",
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "aim-analysis"
+      ],
+      "limits": [
+        "Legacy GT2/GTE is not modern SRO GT2. Confirm each car system from telemetry."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "gt2_sro",
+      "name": "Modern SRO GT2",
+      "car_ids": [],
+      "priority_ids": [
+        "foundation-exit",
+        "foundation-load"
+      ],
+      "constraint_ids": [
+        "foundation-legacy-gt",
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "gt2-sro"
+      ],
+      "limits": [
+        "Higher-power/lower-aero real-world class context is not a physics assertion about an arbitrary AC mod."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "gt4",
+      "name": "GT4",
+      "car_ids": [
+        "ks_maserati_gt_mc_gt4",
+        "ks_porsche_cayman_gt4_clubsport"
+      ],
+      "priority_ids": [
+        "foundation-exit",
+        "foundation-load",
+        "foundation-braking"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "gt4-toyota"
+      ],
+      "limits": [
+        "Road-derived category context; exact homologation, BoP and electronics remain unverified."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "prototype",
+      "name": "Prototype / sports racer",
+      "car_ids": [
+        "ks_porsche_919_hybrid_2015",
+        "ks_porsche_919_hybrid_2016",
+        "ks_toyota_ts040",
+        "ks_audi_r18_etron_quattro",
+        "ks_mazda_787b",
+        "mercedes_c9",
+        "ks_porsche_962c_longtail",
+        "ks_porsche_962c_shorttail"
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-energy",
+        "foundation-thermal"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "prototype-toyota"
+      ],
+      "limits": [
+        "Prototype covers hybrid LMP1 and non-hybrid historical cars; do not generalise one model to all."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "road",
+      "name": "Road car",
+      "car_ids": [
+        "ks_mazda_miata",
+        "ks_mazda_mx5_nd",
+        "ks_porsche_911_gt3_rs",
+        "ks_porsche_cayman_gt4_std",
+        "ferrari_458",
+        "bmw_1m",
+        "lotus_elise_sc"
+      ],
+      "priority_ids": [
+        "foundation-road",
+        "foundation-load"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "d61-setup"
+      ],
+      "limits": [
+        "Actual road tyre and driver assists take precedence over racing class names."
+      ],
+      "confidence": "category_background_only"
+    },
+    {
+      "id": "historic_formula",
+      "name": "Historic single-seater",
+      "car_ids": [
+        "ks_lotus_25"
+      ],
+      "priority_ids": [
+        "foundation-load",
+        "foundation-platform"
+      ],
+      "constraint_ids": [
+        "foundation-capabilities"
+      ],
+      "source_ids": [
+        "d61-braking"
+      ],
+      "limits": [
+        "Historical tyre, gearbox and assist behaviour must be confirmed for the exact simulation."
+      ],
+      "confidence": "category_background_only"
+    }
+  ],
+  "tracks": [
+    {
+      "id": "red-bull-ring",
+      "name": "Red Bull Ring GP",
+      "characteristics": [
+        "Repeated braking and acceleration; loaded infield."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-rbr-silverstone",
+        "brembo-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_red_bull_ring",
+          "layouts": [
+            "layout_gp"
+          ],
+          "confidence": "official_ac_identity"
+        },
+        {
+          "track_id": "F1-Redbullring",
+          "layouts": [
+            "layout_gp",
+            "layout_gp_2023"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona GP",
+      "characteristics": [
+        "Long loaded corners and mixed speeds."
+      ],
+      "priority_ids": [
+        "foundation-load",
+        "foundation-thermal"
+      ],
+      "source_ids": [
+        "pirelli-barcelona"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_barcelona",
+          "layouts": [
+            "layout_gp"
+          ],
+          "confidence": "official_ac_identity"
+        },
+        {
+          "track_id": "F1-Barcelona",
+          "layouts": [
+            "barcelona_2023",
+            "barcelona_gp_2023"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "The older Kunos GP contains the final chicane; current real-world Formula 1 uses a different ending. Do not transfer turn positions."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "monza",
+      "name": "Monza GP",
+      "characteristics": [
+        "Long straights, heavy stops and kerbs."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "merc-monza"
+      ],
+      "bindings": [
+        {
+          "track_id": "monza",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        },
+        {
+          "track_id": "F1-Monza",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "silverstone",
+      "name": "Silverstone GP",
+      "characteristics": [
+        "Fast loaded corner sequences."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "pirelli-rbr-silverstone"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_silverstone",
+          "layouts": [
+            "gp"
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "National, International and 1967 layouts are separate and are not auto-bound to this GP profile."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "spa",
+      "name": "Spa-Francorchamps",
+      "characteristics": [
+        "Elevation, compression and mixed corner demands."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "pirelli-spa"
+      ],
+      "bindings": [
+        {
+          "track_id": "spa",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        },
+        {
+          "track_id": "F1-Spa",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "suzuka",
+      "name": "Suzuka GP",
+      "characteristics": [
+        "Sustained lateral load and flowing corners."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "pirelli-suzuka"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Suzuka",
+          "layouts": [
+            "suzukagp"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "hungaroring",
+      "name": "Hungaroring",
+      "characteristics": [
+        "Linked slow corners and traction demand."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit",
+        "foundation-thermal"
+      ],
+      "source_ids": [
+        "pirelli-hungary"
+      ],
+      "bindings": [
+        {
+          "track_id": "fn_hungaroring",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "imola",
+      "name": "Imola",
+      "characteristics": [
+        "Mixed corners, kerbs and uneven surfaces."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "pirelli-imola"
+      ],
+      "bindings": [
+        {
+          "track_id": "imola",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        },
+        {
+          "track_id": "F1-Imola",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "mugello",
+      "name": "Mugello",
+      "characteristics": [
+        "Long corners and quick direction changes."
+      ],
+      "priority_ids": [
+        "foundation-load",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "pirelli-mugello"
+      ],
+      "bindings": [
+        {
+          "track_id": "mugello",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "zandvoort-legacy",
+      "name": "Zandvoort - older Kunos layout",
+      "characteristics": [
+        "Older layout before modern F1 banking."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_zandvoort",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Modern banking descriptions must not be applied to the older Kunos track."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "zandvoort-modern",
+      "name": "Zandvoort - modern GP",
+      "characteristics": [
+        "Banking and high lateral/vertical loading."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-thermal"
+      ],
+      "source_ids": [
+        "pirelli-zandvoort"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Zandvoort",
+          "layouts": [
+            "2023"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "nordschleife",
+      "name": "Nuerburgring Nordschleife",
+      "characteristics": [
+        "Large elevation changes and many corners."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "ring-nordschleife"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_nordschleife",
+          "layouts": [
+            "nordschleife",
+            "touristenfahrten",
+            "endurance",
+            "endurance_cup"
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Tourist, full-lap and combined-GP timing lines differ. These shared terrain priorities do not make lap times comparable."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "nurburgring-gp",
+      "name": "Nuerburgring GP / Sprint",
+      "characteristics": [
+        "Several distinct GP and Sprint configurations."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "ring-gp"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_nurburgring",
+          "layouts": [
+            "layout_gp_a",
+            "layout_gp_b",
+            "layout_sprint_a",
+            "layout_sprint_b"
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Shared priorities do not make GP/Sprint or different chicanes comparable."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "brands-hatch",
+      "name": "Brands Hatch",
+      "characteristics": [
+        "Natural amphitheatre with separate GP/Indy layouts."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "brands"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_brands_hatch",
+          "layouts": [
+            "gp",
+            "indy"
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "GP and Indy traces remain separate; GP-only corner names are not supplied to Indy."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "laguna-seca",
+      "name": "Laguna Seca",
+      "characteristics": [
+        "Steep descent through the Corkscrew."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-braking"
+      ],
+      "source_ids": [
+        "laguna"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_laguna_seca",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "vallelunga",
+      "name": "Vallelunga",
+      "characteristics": [
+        "Several layouts with varied corner radii."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "vallelunga"
+      ],
+      "bindings": [
+        {
+          "track_id": "ks_vallelunga",
+          "layouts": [
+            "classic_circuit",
+            "club_circuit",
+            "extended_circuit"
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "magione",
+      "name": "Magione",
+      "characteristics": [
+        "Compact permanent racing circuit."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "magione"
+      ],
+      "bindings": [
+        {
+          "track_id": "magione",
+          "layouts": [
+            ""
+          ],
+          "confidence": "official_ac_identity"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "melbourne",
+      "name": "Albert Park",
+      "characteristics": [
+        "Semi-permanent surface; grip evolves."
+      ],
+      "priority_ids": [
+        "foundation-grip"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "fn_albertpark",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "shanghai",
+      "name": "Shanghai",
+      "characteristics": [
+        "Tightening opening corner; varied radii."
+      ],
+      "priority_ids": [
+        "foundation-load",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Shanghai",
+          "layouts": [
+            "gp"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "characteristics": [
+        "Long straights and mixed-speed corners."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "miami_f1",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "montreal",
+      "name": "Montreal",
+      "characteristics": [
+        "Braking and traction dominate."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Montreal",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "monaco",
+      "name": "Monaco",
+      "characteristics": [
+        "Tight barriers and mechanical-grip emphasis."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Monaco",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        },
+        {
+          "track_id": "monaco_2020",
+          "layouts": [
+            "",
+            "monaco_f1_2022",
+            "monaco_f1_2023",
+            "monaco_f1_2024",
+            "monaco_f1_2025"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid / Madring",
+      "characteristics": [
+        "Semi-urban circuit with banked section."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "madrid_2026",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        },
+        {
+          "track_id": "F1-Madring",
+          "layouts": [
+            "",
+            "F1"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "baku",
+      "name": "Baku",
+      "characteristics": [
+        "Tight turns and long straights."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Baku",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "characteristics": [
+        "Low-speed acceleration and evolving surface."
+      ],
+      "priority_ids": [
+        "foundation-exit",
+        "foundation-grip"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "cota",
+      "name": "Circuit of the Americas",
+      "characteristics": [
+        "Elevation and mixed-speed corner sections."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-load"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Cota",
+          "layouts": [
+            "f1",
+            "gt"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico City",
+      "characteristics": [
+        "Altitude, long straight, stadium section."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "acu_mexico_2021",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "interlagos",
+      "name": "Interlagos",
+      "characteristics": [
+        "Elevation changes and surface irregularities."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "vhe_interlagos",
+          "layouts": [
+            "gp"
+          ],
+          "confidence": "local_ui_circuit_family"
+        },
+        {
+          "track_id": "F1-Interlagos",
+          "layouts": [
+            "gp"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "las-vegas",
+      "name": "Las Vegas",
+      "characteristics": [
+        "Long straights; tyre warm-up challenge."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-grip"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Lasvegas",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "lusail",
+      "name": "Lusail",
+      "characteristics": [
+        "Fast flowing corners; sustained loading."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-thermal"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "losail23",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "yas-marina",
+      "name": "Yas Marina",
+      "characteristics": [
+        "Mixed speeds; redesigned after 2021."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "pirelli-circuits"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "bahrain",
+      "name": "Bahrain GP",
+      "characteristics": [
+        "Heavy braking and repeated traction phases."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "brembo-circuits"
+      ],
+      "bindings": [
+        {
+          "track_id": "F1-Bahrain",
+          "layouts": [
+            "f1",
+            "gp"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Endurance and Outer layouts are separate and are not auto-bound."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "jeddah",
+      "name": "Jeddah",
+      "characteristics": [
+        "Several demanding braking events."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "brembo-circuits"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "sepang",
+      "name": "Sepang",
+      "characteristics": [
+        "Separate circuit from Bahrain."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "aim-analysis"
+      ],
+      "bindings": [
+        {
+          "track_id": "acu_sepang",
+          "layouts": [
+            ""
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "This profile currently supplies generic data-analysis priorities only; circuit-specific engineering source coverage is pending."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "road-atlanta",
+      "name": "Road Atlanta",
+      "characteristics": [
+        "Natural-terrain road circuit."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "road-atlanta"
+      ],
+      "bindings": [
+        {
+          "track_id": "jr_road_atlanta_2022",
+          "layouts": [
+            "full",
+            "full_left"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "road-america",
+      "name": "Road America",
+      "characteristics": [
+        "Long permanent road course."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "road-america"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "sebring",
+      "name": "Sebring",
+      "characteristics": [
+        "Multiple published course configurations."
+      ],
+      "priority_ids": [
+        "foundation-braking",
+        "foundation-platform"
+      ],
+      "source_ids": [
+        "sebring"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "The operator map supplies identity, not a quantitative bump model or brake/gear prescription."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "le-mans",
+      "name": "Circuit de la Sarthe / Le Mans",
+      "characteristics": [
+        "Long Mulsanne straight sections."
+      ],
+      "priority_ids": [
+        "foundation-exit",
+        "foundation-energy"
+      ],
+      "source_ids": [
+        "lemans"
+      ],
+      "bindings": [
+        {
+          "track_id": "lemans_2017",
+          "layouts": [
+            "lights",
+            "no_lights"
+          ],
+          "confidence": "local_ui_circuit_family"
+        }
+      ],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "No-chicane layouts are not auto-bound; modern and historical timing are separate."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "bathurst",
+      "name": "Mount Panorama / Bathurst",
+      "characteristics": [
+        "Mountain road circuit and long straights."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "bathurst"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "kyalami",
+      "name": "Kyalami",
+      "characteristics": [
+        "Natural elevation, anti-clockwise circuit."
+      ],
+      "priority_ids": [
+        "foundation-platform",
+        "foundation-sequence"
+      ],
+      "source_ids": [
+        "kyalami"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "misano",
+      "name": "Misano World Circuit",
+      "characteristics": [
+        "Permanent motorsport circuit."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "misano"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Profile currently prioritises generic section analysis; detailed track-specific phase constraints remain unverified."
+      ],
+      "confidence": "primary_source_circuit_background"
+    },
+    {
+      "id": "paul-ricard",
+      "name": "Paul Ricard",
+      "characteristics": [
+        "Many distinct test and race configurations."
+      ],
+      "priority_ids": [
+        "foundation-sequence",
+        "foundation-exit"
+      ],
+      "source_ids": [
+        "paul-ricard"
+      ],
+      "bindings": [],
+      "limits": [
+        "Circuit-family facts only; exact AC geometry, surface and version are not verified.",
+        "No official-turn to normalized-position mapping is supplied.",
+        "Exact configuration must be supplied; no universal chicane or straight layout is assumed."
+      ],
+      "confidence": "primary_source_circuit_background"
+    }
+  ],
+  "radio": {
+    "source_ids": [
+      "radio-mclaren",
+      "radio-aston",
+      "radio-austin",
+      "radio-silverstone"
+    ],
+    "rules": [
+      {
+        "id": "action-first",
+        "text": "Lead with one actionable next step, then one measured reason. Longer explanation belongs in the debrief."
+      },
+      {
+        "id": "low-workload",
+        "text": "Schedule nonurgent coaching on a straight or other verified low-workload phase; suppress it during braking, heavy steering and close battles."
+      },
+      {
+        "id": "one-voice",
+        "text": "Filter competing messages into one priority. Do not recite every available measurement."
+      },
+      {
+        "id": "driver-control",
+        "text": "Respect quiet mode and answer explicit requests; urgent valid car-health warnings may take priority."
+      },
+      {
+        "id": "qualified-evidence",
+        "text": "State what was measured and keep uncertainty explicit; avoid confident fault labels from one scalar difference."
+      }
+    ],
+    "examples": [
+      {
+        "event": "2015 United States GP",
+        "speaker": "Toro Rosso to Carlos Sainz",
+        "quote": "Now we need two quali laps. Big push to open the gap.",
+        "source_id": "radio-austin",
+        "lesson": "A single goal is tied to an immediate task."
+      },
+      {
+        "event": "2022 British GP",
+        "speaker": "Ferrari to its drivers",
+        "quote": "Stay out / box, box",
+        "source_id": "radio-silverstone",
+        "lesson": "Short operational calls precede detailed explanation."
+      }
+    ],
+    "note": "Examples document actual official published radio. The app uses original wording; it does not copy full transcripts, imitate people or import F1 race rules into AC."
+  },
+  "ambiguous_installed_ids": [
+    {
+      "track_id": "F1-Hungaroring",
+      "reason": "Installed folder name conflicts with its own Circuit of the Americas UI metadata; circuit family is unverified."
+    },
+    {
+      "track_id": "F1-Melbourne",
+      "reason": "Installed folder name conflicts with its own Madrid UI metadata; circuit family is unverified."
+    },
+    {
+      "track_id": "F1-Yas Marina",
+      "reason": "Installed folder name conflicts with its own Singapore UI metadata; circuit family is unverified."
+    },
+    {
+      "track_id": "F1-Abu Dhabi",
+      "reason": "No readable layout metadata established this renamed folder identity."
+    },
+    {
+      "track_id": "F1-Jeddah",
+      "reason": "No readable layout metadata established this renamed folder identity."
+    }
+  ]
+}

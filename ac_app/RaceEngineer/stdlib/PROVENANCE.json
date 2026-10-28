@@ -1,0 +1,30 @@
+{
+  "project": "CPython",
+  "version": "3.3.5",
+  "purpose": "AC embedded Python3.3 loopback HTTP socket support",
+  "source_url": "https://www.python.org/ftp/python/3.3.5/Python-3.3.5.tar.xz",
+  "archives": [
+    {
+      "architecture": "x64",
+      "url": "https://www.python.org/ftp/python/3.3.5/python-3.3.5.amd64.msi",
+      "sha256": "4be9dfe84fd5e0bc183fc24680a95a77a86aef21e9989d834084ee6dcc5b2cab",
+      "authenticode": "Valid; Python Software Foundation"
+    },
+    {
+      "architecture": "x86",
+      "url": "https://www.python.org/ftp/python/3.3.5/python-3.3.5.msi",
+      "sha256": "e233762dfe98a9cdc13c50980c668698a497e8875a575b6bbdb22f5414212297",
+      "authenticode": "Valid; Python Software Foundation"
+    }
+  ],
+  "files": [
+    {
+      "path": "x64/_socket.pyd",
+      "sha256": "6491bfb5913fa9379ae7f21f86712591a35a03281d118cc8c5b2a7e5d72e8e89"
+    },
+    {
+      "path": "x86/_socket.pyd",
+      "sha256": "8ba272748037fee5f720ed08d71b82ef2fcb01142122672359a83e589db18302"
+    }
+  ]
+}

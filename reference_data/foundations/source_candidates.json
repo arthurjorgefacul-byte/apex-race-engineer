@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "candidates": [
+    {
+      "repo_id": "Nasim435/spa-francorchamps-lap-data",
+      "revision": "5d20fbfbbf9958549fc6edd8793dcda1bb5b6f50",
+      "track_claim": "Spa-Francorchamps",
+      "car_claim": "Chevrolet Corvette C7.R (publisher description)",
+      "source_url": "https://huggingface.co/datasets/Nasim435/spa-francorchamps-lap-data/tree/5d20fbfbbf9958549fc6edd8793dcda1bb5b6f50",
+      "license": "MIT",
+      "license_status": "publisher_declared_verified_in_pinned_card",
+      "card_sha256": "51cc82ba1fda8cd81f6c310e52994021d89a3a2f27cff88518f860047e597ab7",
+      "payload_validated": false,
+      "human_driver_verified": false,
+      "elite_verified": false,
+      "bundled": false,
+      "retrieved_at": "2026-10-27",
+      "limitations": [
+        "Driver skill and human-versus-AI identity not verified.",
+        "Exact layout, physics, conditions and lap-counter reconstruction need validation."
+      ]
+    },
+    {
+      "repo_id": "Nasim435/Nurburgring-GP-Lap-data",
+      "revision": "89edbc576f98f85da49935be0c98f9bb056c3e3c",
+      "track_claim": "Nuerburgring GP",
+      "car_claim": "Lamborghini Sesto Elemento (publisher description)",
+      "source_url": "https://huggingface.co/datasets/Nasim435/Nurburgring-GP-Lap-data/tree/89edbc576f98f85da49935be0c98f9bb056c3e3c",
+      "license": "MIT",
+      "license_status": "publisher_declared_verified_in_pinned_card",
+      "card_sha256": "0d7c32c95d5ad4cd29a66e3f7aa1265ab140afe5d77d09e11e6bda4079d39f38",
+      "payload_validated": false,
+      "human_driver_verified": false,
+      "elite_verified": false,
+      "bundled": false,
+      "retrieved_at": "2026-10-27",
+      "limitations": [
+        "Driver skill and human-versus-AI identity not verified.",
+        "Exact layout, physics, conditions and lap-counter reconstruction need validation."
+      ]
+    },
+    {
+      "repo_id": "Nasim435/Imola-lap-data",
+      "revision": "baebec752f715a2af9c9a221a512b6d81ceccef8",
+      "track_claim": "Imola (publisher body; conflicting card title)",
+      "car_claim": "Ferrari 458 GT2 (publisher body; conflicting card title)",
+      "source_url": "https://huggingface.co/datasets/Nasim435/Imola-lap-data/tree/baebec752f715a2af9c9a221a512b6d81ceccef8",
+      "license": "MIT",
+      "license_status": "publisher_declared_verified_in_pinned_card",
+      "card_sha256": "3e5c6b62fe7609673ef7db5536996ad7e1b78bd26770dbcc339dcca16ef40e2a",
+      "payload_validated": false,
+      "human_driver_verified": false,
+      "elite_verified": false,
+      "bundled": false,
+      "retrieved_at": "2026-10-27",
+      "limitations": [
+        "Driver skill and human-versus-AI identity not verified.",
+        "Exact layout, physics, conditions and lap-counter reconstruction need validation.",
+        "Card pretty_name says Zandvoort McLaren F1 GTR, conflicting with its Imola Ferrari body."
+      ]
+    }
+  ],
+  "note": "Discovery only. These files are not bundled, reconstructed or counted as human/elite coverage."
+}

@@ -1,0 +1,38 @@
+APEX 0.5.1 PLAYTEST
+
+1. Extract APEX-Playtest-v0.5.1.zip completely. Open its APEX Race Engineer
+   folder and keep all files together.
+2. APEX needs .NET 10 Windows Desktop Runtime (x64) and Python 3.10+.
+   If it will not open or reports a missing runtime, check your installed apps
+   and use the official download links in APEX Race Engineer/playtest/
+   START-HERE.md. The .NET SDK is not required.
+3. With the AC driving session closed, run Install Overlay.cmd in the app
+   folder. Enable
+   RaceEngineer in CM's Assetto Corsa Apps and APEX session bridge in CSP App
+   Shelf. Start a new driving session afterward.
+4. Open Apex.exe. Use APEX live engineer for the first test. Press Radio check.
+   Bind a talk button under Settings and save your preferences.
+5. Press Start session on Home. Complete the initial partial/out lap, then at
+   least two complete clean laps with the same car, compound and setup.
+6. Try fuel status, my fastest lap and feedback. For voice, hold your button,
+   wait for MIC LISTENING, speak in English, then release. Try a reply stopped
+   in the pits or paused as well.
+7. Open Lap analysis, inspect several corners, then remove and restore one of
+   your own test laps. End session & debrief should return you to Home.
+8. Fill in FEEDBACK-TEMPLATE.md. Specific advice, voice, wheel, frame-pacing
+   and closing problems are especially useful. Review optional attachments
+   before sharing; you don't need to send your full recordings folder.
+
+Read APEX Race Engineer/playtest/START-HERE.md for the full 20-minute checklist,
+official download links, optional race/compound checks and current limitations.
+The feedback form is in that same playtest folder. Recordings are not sent
+automatically; share only the report and optional evidence you choose.
+
+Required: Windows x64; original Assetto Corsa; CM/CSP; .NET 10 Windows Desktop
+Runtime x64; Python 3.10+. Optional voice input requires a microphone and the
+Windows English (United States) speech recognizer. No account or paid API is
+needed for APEX's local engineer.
+
+This build does not support ACC or AC EVO. Research laps are not verified
+elite benchmarks. Gaps and pit selections need matching CSP data; a tyre
+request prepares a future pit service and requires game confirmation.

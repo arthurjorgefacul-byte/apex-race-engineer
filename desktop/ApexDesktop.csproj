@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Apex</AssemblyName>
+    <RootNamespace>ApexDesktop</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <Version>0.5.1</Version>
+    <ApplicationIcon>../assets/apex.ico</ApplicationIcon>
+    <Product>APEX</Product>
+    <Description>Native desktop race engineer for Assetto Corsa</Description>
+    <NuGetAudit>false</NuGetAudit>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="../assets/apex-symbol.png" LogicalName="Apex.Brand.Symbol.png" />
+    <EmbeddedResource Include="../assets/apex.ico" LogicalName="Apex.Brand.Icon.ico" />
+  </ItemGroup>
+</Project>

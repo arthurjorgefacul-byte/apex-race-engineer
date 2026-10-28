@@ -1,0 +1,177 @@
+{
+  "what": "pro-engineer/session",
+  "schema": 1,
+  "from": "APEX local",
+  "sequence": 196,
+  "reading": {
+    "car": {
+      "speed_kmh": 217.72433,
+      "rpm": 9841,
+      "gear": 4,
+      "throttle": 0.21913987,
+      "brake": 0.75,
+      "clutch": 0.0,
+      "steer_angle": -0.07536795,
+      "fuel_litres": 34.2,
+      "acc_g": [
+        -0.34453923,
+        0.0,
+        -0.7302363
+      ],
+      "wheel_slip": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "wheel_load": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tyre_pressure_psi": [
+        27.4,
+        27.6,
+        27.5,
+        27.3
+      ],
+      "tyre_wear": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tyre_core_temp_c": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tyre_temp_inner_c": [
+        87.82382,
+        88.0,
+        92.1,
+        90.5
+      ],
+      "tyre_temp_middle_c": [
+        85.02383,
+        85.2,
+        89.0,
+        87.8
+      ],
+      "tyre_temp_outer_c": [
+        80.72382,
+        81.0,
+        85.2,
+        84.0
+      ],
+      "brake_temp_c": [
+        428.2312,
+        442.0,
+        380.0,
+        375.0
+      ],
+      "brake_pad_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "brake_disc_mm": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "camber_rad": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "suspension_travel": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "ride_height_m": [
+        0.0,
+        0.0
+      ],
+      "brake_bias": 0.0,
+      "air_temp_c": 22.5,
+      "road_temp_c": 34.0,
+      "tc": 3.0,
+      "tc_level": 0,
+      "tc_in_action": 0.0,
+      "abs": 2.0,
+      "abs_level": 0,
+      "abs_in_action": 0.0,
+      "damage": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "tyres_off_track": 0,
+      "reference_delta_s": 0.0,
+      "force_feedback": 0.0,
+      "pit_limiter": false
+    },
+    "session": {
+      "status": "Live",
+      "kind": "Unknown",
+      "completed_laps": 5,
+      "total_laps": 0,
+      "position": 2,
+      "current_lap_ms": 22750,
+      "last_lap_ms": 81452,
+      "best_lap_ms": 81452,
+      "session_time_left_ms": 0.0,
+      "current_sector": 0,
+      "last_sector_ms": 0,
+      "track_position": 0.0,
+      "distance_travelled_m": 0.0,
+      "car_position_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "surface_grip": 0.98,
+      "wind_speed_kmh": 0.0,
+      "wind_direction_deg": 0.0,
+      "fuel_per_lap": 2.85,
+      "compound": "",
+      "in_pit_lane": false,
+      "tc_cut": 0,
+      "engine_map": 0,
+      "lap_is_valid": true
+    },
+    "fixed": {
+      "car_model": "ks_ferrari_sf70h",
+      "track": "monza",
+      "track_config": "",
+      "driver_name": "",
+      "sector_count": 0,
+      "max_rpm": 12500,
+      "max_fuel_litres": 110.0,
+      "track_length_m": 0.0
+    },
+    "capabilities": {
+      "tyre_edge_temps": true,
+      "sectors": true,
+      "setups": true,
+      "tyre_wear": true,
+      "track_grip": true,
+      "brake_wear": true,
+      "lap_validity": true,
+      "wind": true,
+      "ride_height": true,
+      "in_game_panel": true,
+      "damage": true
+    }
+  }
+}

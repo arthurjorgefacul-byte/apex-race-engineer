@@ -1,0 +1,17 @@
+/data/
+**/__pycache__/
+**/bin/
+**/obj/
+*.pyc
+*.pdb
+*.sqlite3*
+*.log
+.env
+.env.*
+APEX-session-*.json
+/Apex.exe
+/Apex.dll
+/Apex.deps.json
+/Apex.runtimeconfig.json
+/SOURCE.zip
+/RELEASE.json

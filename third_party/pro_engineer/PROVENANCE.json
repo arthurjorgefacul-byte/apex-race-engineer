@@ -1,0 +1,13 @@
+{
+  "project": "AC Pro Engineer",
+  "source_url": "https://github.com/Rgosh/ac-pro-engineer",
+  "release": "v0.5.1",
+  "release_url": "https://github.com/Rgosh/ac-pro-engineer/releases/tag/v0.5.1",
+  "revision": "c7a193fa558697294453c61693a62dd0c21414bb",
+  "binary_archive_url": "https://github.com/Rgosh/ac-pro-engineer/releases/download/v0.5.1/ac_tui-x86_64-pc-windows-gnu.zip",
+  "binary_archive_sha256": "7be4ca9ec92a2ae2363857c8c235ea8a161b4dd68e0adb394d416ef1a6a4072a",
+  "binary_sha256": "b39f7f2990680a5daffa5925605081298a10a719f93592359bd92a24409e9b6e",
+  "source_archive_url": "https://github.com/Rgosh/ac-pro-engineer/releases/download/v0.5.1/source.tar.gz",
+  "source_archive_sha256": "514077d144a311b6d1f09670b62b244e36b85483af0768c9a6fd46d071011440",
+  "verification": "Both archives matched their published SHA-256 files; native executable is unmodified."
+}
